@@ -19,7 +19,8 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mission/', views.mission, name='mission'),
-    path('vision/', views.vision, name='vision'),
-    path('objectives/', views.objectives, name='objectives'),
+    path('', views.mission, name="mission"),
+    path('vision/', views.vision, name="vision"),
+    path('objectives/', views.objectives, name="objectives"),
+
 ]

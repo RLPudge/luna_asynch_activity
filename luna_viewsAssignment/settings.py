@@ -55,9 +55,7 @@ ROOT_URLCONF = 'luna_viewsAssignment.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            os.path.join(BASE_DIR, 'luna_viewsAssignment/templates/mseuf'),
-        ],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
